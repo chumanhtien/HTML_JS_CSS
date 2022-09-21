@@ -1,0 +1,3 @@
+- Muốn vị trí thằng con tuân theo thằng tổ tiên đầu tiên chứa nó (tổ tiên xa nhất) ==> để position thằng con là absolute
+- Muốn vị trí thằng con phụ thuộc trên trang browser web ==> position: fixed
+- Vị trí 
