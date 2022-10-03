@@ -1,1 +1,4 @@
 Script lay DOM => de phia sau phan body
+
+Khi Sinh ra một DOM Mới => không nên sinh sự kiện cho các nút (VD: button)
+Nên để luôn trong thẻ onClick
