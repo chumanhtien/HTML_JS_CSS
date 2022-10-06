@@ -50,7 +50,6 @@ h1 {
     border-radius: 25px;
     background: linear-gradient(to right, #e4ce23, #d23d2f);
     overflow: hidden;
-    color: rgba(235, 45, 11, 0.1);
 }
 
 .slider::-webkit-slider-thumb {
