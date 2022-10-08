@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.tool {
+    background: rgb(54, 104, 203);
+    display: flex;
+    align-items: center;
+}
+
+.tool > *:hover {
+    cursor: pointer;
+}
+
+.tool > * {
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 3px;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.tool a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    text-decoration: none;
+    color: blue;
+}
+
+#save {
+    margin-left: auto;
+}
+
+.chosen {
+    background: rgba(71, 8, 8, 0.4);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: 2px solid black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
